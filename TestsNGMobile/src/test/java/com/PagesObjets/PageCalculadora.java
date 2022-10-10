@@ -36,7 +36,7 @@ public class PageCalculadora extends MapCalculadora {
 		float result=Float.valueOf(valor1);
 		System.out.print("= "+valor1);
 		System.out.print(45);
-		
+		//cambio de todo
 		//Assert.assertEquals(f, 0);
 		Assert.assertEquals("",driver.findElement(validacion).getText().toString());
 		
