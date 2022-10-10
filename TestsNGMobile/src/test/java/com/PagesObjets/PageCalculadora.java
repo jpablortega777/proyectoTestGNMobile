@@ -34,8 +34,8 @@ public class PageCalculadora extends MapCalculadora {
 		tiempoEspera(2500);
 		//float f=Float.parseFloat(driver.findElement(validacion).getText());
 		float result=Float.valueOf(valor1);
-		System.out.print("= "+valor1);
-		System.out.print(45);
+		//System.out.print("= "+valor1);
+		//System.out.print(45);
 		
 		//Assert.assertEquals(f, 0);
 		Assert.assertEquals("",driver.findElement(validacion).getText().toString());
